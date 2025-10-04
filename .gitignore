@@ -1,0 +1,112 @@
+# Laravel Framework
+*.log
+.env
+.env.backup
+.env.production
+.env.local
+.env.testing
+.phpunit.result.cache
+/.phpunit.cache
+/auth.json
+/vendor
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# IDEs & Editors
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+.phpactor.json
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Node.js
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build & Assets
+/public/build
+/public/hot
+/public/storage
+/public/mix-manifest.json
+
+# Storage & Cache
+/storage/*.key
+/storage/app/public/*
+!/storage/app/public/.gitignore
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/pail
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# Database
+*.sqlite
+*.sqlite3
+database.sqlite
+
+# Filament specific
+/storage/app/livewire-tmp
+
+# Docker
+docker-compose.override.yml
+/.docker
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+
+# Testing
+.phpunit.cache
+coverage.xml
+.coverage
+phpunit.xml
+
+# Local development tools
+.sail/
+/.devcontainer
+.vagrant/
+
+# Security
+/config/app_backup.php
+id_rsa
+id_rsa.pub
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+.nyc_output
+.grunt
+bower_components
+.lock-wscript
+.wafpickle-N
+.env.example.bak
