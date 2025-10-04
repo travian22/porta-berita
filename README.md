@@ -7,6 +7,22 @@ Portal berita modern yang dibangun menggunakan Laravel dan Filament Admin Panel.
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Filament](https://img.shields.io/badge/Filament-FFAA00?style=for-the-badge&logo=filament&logoColor=white)
 
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/travian22/porta-berita.git
+cd porta-berita
+composer install && npm install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+php artisan storage:link
+npm run build
+php artisan serve
+```
+
+Demo: `http://127.0.0.1:8000` | Admin: `http://127.0.0.1:8000/admin`
+
 ## ✨ Fitur Utama
 
 ### 📱 Frontend (Public Site)
@@ -48,8 +64,8 @@ Portal berita modern yang dibangun menggunakan Laravel dan Filament Admin Panel.
 
 ### 1. Clone Repository
 ```bash
-git clone <repository-url>
-cd portal-berita
+git clone https://github.com/travian22/porta-berita.git
+cd porta-berita
 ```
 
 ### 2. Install Dependencies
@@ -196,22 +212,37 @@ php artisan test --filter=NewsTest
 
 ## 📝 Contributing
 
-1. Fork repository
+1. Fork repository dari [https://github.com/travian22/porta-berita](https://github.com/travian22/porta-berita)
 2. Buat feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit changes (`git commit -m 'Add amazing feature'`)
 4. Push ke branch (`git push origin feature/amazing-feature`)
 5. Buat Pull Request
 
+## 🐛 Issues & Support
+
+Jika Anda menemukan bug atau memiliki saran, silakan buat [issue di GitHub](https://github.com/travian22/porta-berita/issues) atau hubungi tim development.
+
+## 📊 Repository Stats
+
+- **Repository:** [travian22/porta-berita](https://github.com/travian22/porta-berita)
+- **Main Branch:** `main`
+- **Language:** PHP (Laravel)
+- **License:** MIT
+
 ## 📄 License
 
-Proyek ini menggunakan [MIT License](LICENSE).
+Proyek ini menggunakan [MIT License](https://github.com/travian22/porta-berita/blob/main/LICENSE).
 
 ## 🤝 Support
 
-Jika Anda menemukan bug atau memiliki saran, silakan buat [issue](../../issues) atau hubungi tim development.
+Jika Anda menemukan bug atau memiliki saran, silakan buat [issue di GitHub](https://github.com/travian22/porta-berita/issues) atau hubungi tim development.
 
 ---
 
 <p align="center">
-Dibuat dengan ❤️ menggunakan Laravel & Filament
+<strong>🚀 Portal Berita</strong><br>
+Dibuat dengan ❤️ menggunakan Laravel & Filament<br>
+<a href="https://github.com/travian22/porta-berita">⭐ Star di GitHub</a> • 
+<a href="https://github.com/travian22/porta-berita/issues">🐛 Report Bug</a> • 
+<a href="https://github.com/travian22/porta-berita/fork">🔀 Fork</a>
 </p>
